@@ -1,0 +1,102 @@
+body {
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    width: 650px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    border: 1px solid #999;
+    padding: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.section-title {
+    color: red;
+    font-size: 14px;
+    margin: 15px 0 10px 0;
+}
+
+label {
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    vertical-align: top;
+}
+
+input[type="text"], select, textarea {
+    width: 300px;
+    padding: 2px;
+    border: 1px solid #7f9db9;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+.short-input {
+    width: 100px !important;
+}
+
+.tiny-input {
+    width: 60px !important;
+}
+
+.row-block {
+    margin-bottom: 8px;
+}
+
+.row-block label {
+    vertical-align: top;
+}
+
+.row-block > div {
+    display: inline-block;
+    width: 440px;
+    vertical-align: top;
+}
+
+.inline {
+    font-weight: normal !important;
+    width: auto !important;
+    text-align: left !important;
+    display: inline !important;
+}
+
+.desc {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.btn-box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: #efefef;
+    border: 1px solid #707070;
+    padding: 2px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0 4px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.sub-footer {
+    color: #777;
+}
